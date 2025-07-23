@@ -1,0 +1,19 @@
+<package format="3">
+    <name>bopa_logger</name>
+    <version>0.0.0</version>
+    <description>Logging utility for BOPA robots</description>
+    <maintainer email="oleksii.vyshnevskyi@jetsoftpro.com">Oleksii Vyshnevskyi</maintainer>
+    <license>TODO</license>
+
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <buildtool_depend>ament_cmake_python</buildtool_depend>
+    <exec_depend>rclpy</exec_depend>
+    <exec_depend>python3-paramiko</exec_depend>
+
+    <export>
+      <build_type>ament_cmake</build_type>
+    </export>
+
+
+</package>

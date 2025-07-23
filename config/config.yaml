@@ -1,0 +1,7 @@
+log_collector:
+  ros__parameters:
+    remote_host:     "ip-address"
+    remote_user:     "user-name"
+    remote_pass:     "passwordb"
+    remote_path:     "path-on-remote-server"
+    transfer_method: "paramiko"
