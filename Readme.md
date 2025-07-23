@@ -1,6 +1,17 @@
 # Bopa_logger
 Module for gather logs and transfer it to dedicated host
 
+<!-- TOC -->
+* [Bopa_logger](#bopa_logger)
+    * [Build and run](#build-and-run)
+    * [Usage example](#usage-example)
+    * [File structure](#file-structure)
+    * [Configuration](#configuration)
+    * [Entry point](#entry-point)
+    * [Classes and source code](#classes-and-source-code)
+    * [Documentation](#documentation)
+<!-- TOC -->
+
 ___
 ### Build and run
 ```
@@ -22,6 +33,7 @@ ___
 ### File structure
 ```
 bopa_logger/
+├─ .gitignore
 ├─ CMakeLists.txt
 ├─ package.xml
 ├─ setup.py
@@ -77,3 +89,6 @@ bopa_logger/
       └─ LogCollector.py
 
 ```
+
+### Documentation
+refer to [Logger collector](src/logger_collector/LogCollector.py)
